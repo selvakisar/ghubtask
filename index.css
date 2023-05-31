@@ -53,6 +53,10 @@
     border-radius: 9px;
     width: 500px;
 }
+.id{
+    background-color: cornflowerblue;
+    stroke: black;
+}
 .b
 {
     position: relative;
