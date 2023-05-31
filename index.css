@@ -1,0 +1,94 @@
+.icon{
+    grid-row-end: 5;
+    position:fixed;
+    top: 30px;
+    left: 25px;
+    width:3%;
+    border-radius: 50px;
+    
+ 
+}
+.div1
+{
+    background-color: rgb(3, 77, 77);
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 6%;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 35px;
+    image-rendering: auto;
+
+}
+
+.div2
+{
+    position: relative;
+    background-color: darkgray;
+    margin-left: 15px;
+    height: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 10px;
+}
+
+.a
+{
+    position: relative;
+   grid-row-start: 1;
+   grid-row-end: 5;
+   background-color:black;
+   width: 75%;
+   border-radius: 15px;
+   margin: 5%;
+   
+}
+.input{
+    position: relative;
+    padding: 6px;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color:silver;
+    border-radius: 9px;
+    width: 500px;
+}
+.b
+{
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color:rgb(248, 248, 248);
+    color: aliceblue;
+    width: 55%;
+    height: 25%;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-left: 13%;
+    padding-top: 5px;
+    padding-left: 25px;
+
+    
+}
+
+.c
+{
+    background-color: black;
+    border-radius: 15px;
+    height: 100%;
+    width: 70%;
+    
+}
+
+.d
+{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: black;
+    border-radius: 15px;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height:70%;
+    width: 90%;
+    margin-top: 5%;
+}
